@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Header = () => {
     return ( 
         <div className="header">
@@ -20,6 +21,9 @@ const Header = () => {
                 <a href="/">
                     <img className='socialIcon' src="wahtsapp.png" alt="WhatsApp" />
                 </a>
+                <Link to="/fpixels">
+                    F
+                </Link>
             </div>
             <div className="menu-trigger">
                 Menu
