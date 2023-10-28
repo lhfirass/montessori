@@ -1,0 +1,41 @@
+#s1 {
+    width: 60px;
+    top: 40%;
+    right: 10%;
+}
+#s2 {
+    width: 40px;
+    top: 60%;
+    right: 40%;
+    animation-delay: 1s;
+}
+#s3 {
+    width: 48px;
+    top: 38%;
+    left: 10%;
+    animation-delay: .5s;   
+}
+#s4 {
+    width: 30px;
+    top: 38%;
+    left: 30%;   
+}
+
+.vanishAnimation {
+    opacity: 100%;
+    animation: vanish infinite 3s ease;
+    position: fixed;
+}
+    @keyframes vanish {
+    0% {
+        opacity: 30%;
+        transform: translateY(100px);
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+        transform: translateY(-100px);
+    }
+}

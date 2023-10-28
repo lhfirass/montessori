@@ -4,11 +4,13 @@ import Header from './Header';
 import Hero from './Hero';
 import FPIXELS from './FPIXELS';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Stars from './fpixelsWidgets/Stars';
 
 function App() {
   return (
     <Router>
       <div className="App">
+      <Stars/>
       <Switch>
         {/*main landing page*/};
         <Route exact path="/">

@@ -59,7 +59,7 @@ ul {
   display: none;
 }
 
-/**/
+/*Hero*/
 .hero {
   display: flex;
   height: 90vh;
@@ -101,6 +101,36 @@ ul {
   width: 400px
 }
 
+/*About*/
+.about {
+}
+.about .text {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .t1 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #222222;
+}
+.about .t2 {
+  color: #464747;
+  width: 60%;
+  font-size: 18px;
+}
+.about .books {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+.books img {
+  width: calc(90%/7);
+  cursor: pointer;
+  margin: 4px;
+}
 
 
 
@@ -110,12 +140,14 @@ ul {
 
 /*different media style*/
 @media (max-width: 700px) {
+  /*Header*/
   .socialIcon {
     display: none;
   }
   .header ul {
     display: none;
   }
+  /*Hero*/
   .menu-trigger {
     display: block;
   }
@@ -124,5 +156,16 @@ ul {
   }
   .hero img {
     margin: 40px;
+  }
+  .message p:nth-child(2) {
+    width: 100%;
+    text-align: justify;
+  }
+  /*About*/
+  .about .t2 {
+    width: 90%;
+  }
+  .books img {
+    width: calc(90%/2);
   }
 }
