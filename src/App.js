@@ -9,9 +9,9 @@ import MyButton from './fpixelsWidgets/MyButton';
 import { useState } from 'react';
 
 function App() {
-  const [text, setText] = useState('المزيد عن المؤلفة');
-  const [color, setColor] = useState('white');
-  const [backgroundColor, setBackgroundColor] = useState('#222222');
+  const [author, setText] = useState('المزيد عن المؤلفة');
+  const [aColor, setColor] = useState('white');
+  const [aBackgroundColor, setBackgroundColor] = useState('#222222');
   const handleClick = () => {
     alert('Button clicked!');
   };
@@ -26,11 +26,12 @@ function App() {
           <Hero />
           <About />
           <MyButton
-            text={text}
-            color={color}
-            backgroundColor={backgroundColor}
+            text={author}
+            color={aColor}
+            backgroundColor={aBackgroundColor}
             onClick={handleClick}
       />
+
         </Route>
         {/*end*/};
         {/*FPIXELS landing page*/};
