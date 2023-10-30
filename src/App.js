@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Stars from './fpixelsWidgets/Stars';
 import { useState } from 'react';
 import ShitFile from './Shitfile';
+import Why from './Why';
 
 function App() {
   const [author, setText] = useState('المزيد عن المؤلفة');
@@ -26,6 +27,7 @@ function App() {
           <Hero />
           <About />
           <ShitFile />
+          <Why />
         </Route>
         {/*end*/};
         {/*FPIXELS landing page*/};

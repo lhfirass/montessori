@@ -159,6 +159,32 @@ span#green {
   border-radius: 100%;
   background-color: green;
 }
+/*Why*/
+.why {
+  text-align: justify;
+}
+span.circle {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 4px solid #BE1E2D;
+  position: relative;
+}
+.whyHeader {
+  font-weight: bold;
+  font-size: 28px;
+  color: #222222;
+}
+span.hider {
+  display: block;
+  width: 4px;
+  height: 8px;
+  background-color: white;
+  position: absolute;
+  top: -6px;
+  right: 6px;
+}
 
 
 

@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col, Button } from "react-bootstrap";
+
 const ShitFile = () => {
     let [color, setColor] = useState('red');
     let handleClick = (color) => {
@@ -6,18 +9,7 @@ const ShitFile = () => {
     }
     return ( 
         <>
-            <div className="prd">
-                <span className="prd" id={color}></span>
-            </div>
-            <button onClick={() => handleClick("red")}>
-                <span id="red"></span>
-            </button>
-            <button onClick={() => handleClick("blue")}>
-                <span id="blue"></span>
-            </button>
-            <button onClick={() => handleClick("green")}>
-                <span id="green"></span>
-            </button>
+            <Button variant="warning" size="sm">shit content</Button>
         </>
     );
 }
