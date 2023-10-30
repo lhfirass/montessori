@@ -185,6 +185,15 @@ span.hider {
   top: -6px;
   right: 6px;
 }
+.spacer {
+  margin: 80px 0;
+}
+/*testemonial*/
+.tstHeader {
+  font-weight: bold;
+  font-size: 28px;
+  color: #222222;
+}
 
 
 

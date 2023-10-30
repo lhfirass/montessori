@@ -8,6 +8,7 @@ import Stars from './fpixelsWidgets/Stars';
 import { useState } from 'react';
 import ShitFile from './Shitfile';
 import Why from './Why';
+import Testemonial from './Testemonial';
 
 function App() {
   const [author, setText] = useState('المزيد عن المؤلفة');
@@ -27,7 +28,10 @@ function App() {
           <Hero />
           <About />
           <ShitFile />
+          <div className="spacer"></div>
           <Why />
+          <div className="spacer"></div>
+          <Testemonial />
         </Route>
         {/*end*/};
         {/*FPIXELS landing page*/};
