@@ -131,6 +131,34 @@ ul {
   cursor: pointer;
   margin: 4px;
 }
+.prd {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+}
+span#red {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: red;
+}
+span#blue {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: blue;
+}
+span#green {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: green;
+}
 
 
 
