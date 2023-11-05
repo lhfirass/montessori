@@ -9,6 +9,8 @@ import { useState } from 'react';
 import ShitFile from './Shitfile';
 import Why from './Why';
 import Testemonial from './Testemonial';
+import Download from './Download';
+
 
 function App() {
   const [author, setText] = useState('المزيد عن المؤلفة');
@@ -32,6 +34,7 @@ function App() {
           <Why />
           <div className="spacer"></div>
           <Testemonial />
+          <Download />
         </Route>
         {/*end*/};
         {/*FPIXELS landing page*/};

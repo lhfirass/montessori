@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Modal.css";
-import { motion, useAnimation  } from "framer-motion";
 
 const Modal = () => {
     const [modal, setModal] = useState(false);
@@ -21,13 +20,13 @@ const Modal = () => {
             {modal && (
                 <div className="modal">
                     <div onClick={toggleModal} className="overlay"></div>
-                    <motion.div >
+                    
                         <div className="modal-content">
                             <button onClick={toggleModal} className="close-modal">close</button>
                             <h2> مونتيسوري الرياضيات - الجزء الأول </h2>
                             <p>ربما يتفق الأغلبية على أن مادة الرياضيات هي من أصعب المواد في المسار الدراسي إلا أن الرياضيات المونتيسوري مممتعة للغاية بل تجعل الطفل يتعلق بالرياضيات من خلال تطوير مهاراته الرياضية عن طريق اللعب بأدوات شيقة تجعل تعلمها مسليا يكتسب من خلالها مفاهيم مثل القيمة المكانية والترقيم والكسور والنظام العشري والعمليات البسيطة الجمع ، الضرب ،الطرح والقسمة…يتم ترتيب جميع الأنشطة في ركن الرياضيات بالمونتيسوري من البسيط إلى المعقد ، ومن الملموس إلى المجرد.</p>
                         </div>
-                        </motion.div>
+                        
                     </div>
             )}
         </>

@@ -194,7 +194,19 @@ span.hider {
   font-size: 28px;
   color: #222222;
 }
-
+.client .content {
+  width: 60%;
+  text-align: justify;
+}
+.r {
+  margin: 40px 0;
+}
+.client .content p {
+  border: none;
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: 4px 4px 10px 0 #22222218;
+}
 
 
 
