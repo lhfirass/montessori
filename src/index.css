@@ -23,194 +23,34 @@ a {
   text-decoration: none;
   color: #222222;
 }
-ul {
-  list-style: none;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 40px;
-  font-family: 'Roboto';
-}
-.header .logo {
-  width: 60px;
-}
-.header ul {
-  display: flex;
-  padding: 4px 0;
-}
-.header ul li {
-  color: #464747;
-  margin: 0 28px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: .3s;
-}
 
-.header ul li:hover {
-  color: #BE1E2D;
-} 
-.socialIcon {
-  cursor: pointer;
-  width: 20px;
-  margin: 0 4px;
-}
-.menu-trigger {
-  display: none;
-}
-
-/*Hero*/
-.hero {
-  display: flex;
+.containerHero {
   height: 90vh;
+  display: flex;
+  padding: 0 80px;
   align-items: center;
-  padding: 0 10%;
+  justify-content: space-between;
 }
-.message {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
-.message p:first-child {
+.heading {
+  font-size: 40px;
   font-weight: bold;
-  font-size: 36px;
-  color: #222222;
+  color: #222;
 }
-.message p:nth-child(2) {
-  color: #464747;
-  width: 80%;
+.subHeading {
   font-size: 18px;
+  color: #222;
 }
-.actionBtn a {
-  padding: 4px 12px;
+.btns Button {
+  margin: 0 8px;
+  color: white;
   font-weight: bold;
-  color: #ffffff;
-  border-radius: 4px;
-  margin: 4px;
 }
-.actionBtn a:hover {
-  opacity: .9;
+.btns Button:hover {
+  color: white;
 }
-.actionBtn a:first-child {
-  background-color: #BE1E2D;
+.heroPic {
+  width: 500px;
 }
-.actionBtn a:nth-child(2) {
-  background-color: #F7941D;
-}
-.hero img {
-  width: 400px
-}
-
-/*About*/
-.about {
-}
-.about .text {
-  font-family: 'Roboto';
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about .t1 {
-  font-weight: bold;
-  font-size: 28px;
-  color: #222222;
-}
-.about .t2 {
-  color: #464747;
-  width: 60%;
-  font-size: 18px;
-}
-.about .books {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 0 10%;
-}
-.books img {
-  width: calc(90%/7);
-  cursor: pointer;
-  margin: 4px;
-}
-.prd {
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: red;
-}
-span#red {
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: red;
-}
-span#blue {
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: blue;
-}
-span#green {
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: green;
-}
-/*Why*/
-.why {
-  text-align: justify;
-}
-span.circle {
-  display: block;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border: 4px solid #BE1E2D;
-  position: relative;
-}
-.whyHeader {
-  font-weight: bold;
-  font-size: 28px;
-  color: #222222;
-}
-span.hider {
-  display: block;
-  width: 4px;
-  height: 8px;
-  background-color: white;
-  position: absolute;
-  top: -6px;
-  right: 6px;
-}
-.spacer {
-  margin: 80px 0;
-}
-/*testemonial*/
-.tstHeader {
-  font-weight: bold;
-  font-size: 28px;
-  color: #222222;
-}
-.client .content {
-  width: 60%;
-  text-align: justify;
-}
-.r {
-  margin: 40px 0;
-}
-.client .content p {
-  border: none;
-  border-radius: 20px;
-  padding: 14px;
-  box-shadow: 4px 4px 10px 0 #22222218;
-}
-
-
-
 
 
 

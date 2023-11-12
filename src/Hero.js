@@ -4,25 +4,19 @@ import { Container, Row, Col, Button} from 'react-bootstrap';
 const Hero = () => {
     return ( 
         <>
-            <Container>
-                <Row>
-                    <Col sm>
-                        <p>Title one</p>
-                        <p>Subtitle</p>
-                        <Row>
-                            <Col>
-                                <Button>btn red</Button>
-                            </Col>
-                            <Col>
-                                <Button>btn yellow</Button>
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col sm>
-                        <img className='HeroPic' src="hero-pic.png" alt="" />
-                    </Col>
-                </Row>
-            </Container>
+            <div className="containerHero">
+                <div className="message">
+                    <p className="heading">ألبومات مونتيسوري بالعربي</p>
+                    <p className="subHeading">كن ممارسا لمونتيسوري من الآن و ضع الأساس لحب التعلم مدى الحياة.</p>
+                    <div className="btns">
+                        <Button variant='danger'>تحميل مختصر</Button>
+                        <Button variant='warning'>للتواصل</Button>
+                    </div>
+                </div>
+                <div>
+                    <img src="hero-pic.png" alt="" className="heroPic" />
+                </div>
+            </div>
         </>
     );
 }
